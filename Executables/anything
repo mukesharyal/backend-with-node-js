@@ -1,0 +1,14 @@
+# Anything and everything is an executable in UNIX
+# If it contains a valid command, bash will try to run it
+
+# UNIX doesn't allow it to be executed straight away, but if we make it executable, then it will
+# happily run it without any issue
+
+#! /bin/sh
+
+num=1
+num2=5
+
+echo $((num + num2))
+
+node -v
